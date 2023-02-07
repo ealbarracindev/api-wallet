@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "wallet.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/wallet.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/wallet.core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "wallet.core/1.0.0": {
+      "type": "project",
+      "path": "../wallet.core/wallet.core.csproj",
+      "msbuildProject": "../wallet.core/wallet.core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "wallet.core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\javie\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\DEVELOP\\PROYECTOS LABS\\REPO-GITHUB-DEV\\PROJECTS IN REPO\\api-wallet\\src\\wallet.application\\wallet.application.csproj",
+      "projectName": "wallet.application",
+      "projectPath": "D:\\DEVELOP\\PROYECTOS LABS\\REPO-GITHUB-DEV\\PROJECTS IN REPO\\api-wallet\\src\\wallet.application\\wallet.application.csproj",
+      "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
+      "outputPath": "D:\\DEVELOP\\PROYECTOS LABS\\REPO-GITHUB-DEV\\PROJECTS IN REPO\\api-wallet\\src\\wallet.application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/GrupoLosGrobo/PTG/_packaging/backend-artifacts/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "D:\\DEVELOP\\PROYECTOS LABS\\REPO-GITHUB-DEV\\PROJECTS IN REPO\\api-wallet\\src\\wallet.core\\wallet.core.csproj": {
+              "projectPath": "D:\\DEVELOP\\PROYECTOS LABS\\REPO-GITHUB-DEV\\PROJECTS IN REPO\\api-wallet\\src\\wallet.core\\wallet.core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

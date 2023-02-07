@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "wallet.application/1.0.0": {
+        "dependencies": {
+          "wallet.core": "1.0.0"
+        },
+        "runtime": {
+          "wallet.application.dll": {}
+        }
+      },
+      "wallet.core/1.0.0": {
+        "runtime": {
+          "wallet.core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "wallet.application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "wallet.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wallet.api", "wallet.api\wallet.api.csproj", "{8FC64BBD-6B90-4FE1-948C-CEE6CC472B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wallet.core", "wallet.core\wallet.core.csproj", "{88F355FF-E489-4B39-8032-32ACFF24B3A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wallet.infrastructure", "wallet.infrastructure\wallet.infrastructure.csproj", "{2EA47655-70FD-4D02-8774-D943186C4687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wallet.application", "wallet.application\wallet.application.csproj", "{1E2E2C79-7CEA-4493-BC55-50A68105AB69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FC64BBD-6B90-4FE1-948C-CEE6CC472B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC64BBD-6B90-4FE1-948C-CEE6CC472B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC64BBD-6B90-4FE1-948C-CEE6CC472B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC64BBD-6B90-4FE1-948C-CEE6CC472B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F355FF-E489-4B39-8032-32ACFF24B3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F355FF-E489-4B39-8032-32ACFF24B3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F355FF-E489-4B39-8032-32ACFF24B3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F355FF-E489-4B39-8032-32ACFF24B3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA47655-70FD-4D02-8774-D943186C4687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA47655-70FD-4D02-8774-D943186C4687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA47655-70FD-4D02-8774-D943186C4687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA47655-70FD-4D02-8774-D943186C4687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2E2C79-7CEA-4493-BC55-50A68105AB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2E2C79-7CEA-4493-BC55-50A68105AB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2E2C79-7CEA-4493-BC55-50A68105AB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2E2C79-7CEA-4493-BC55-50A68105AB69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
